@@ -1,0 +1,40 @@
+*{
+    /* if write any style inside the * it will apply to all elements in document  */
+    margin: 0;
+    padding: 0;
+}
+.text-red{
+    color: red;
+}
+.big-heading{
+    font-size: 2rem;
+}
+.home{
+    padding: 4%;
+    /* background-color: red; */
+    width: 60%;
+}
+.main-image{
+    width: 100%;
+}
+.content{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    line-height: 1.7;
+    text-align: justify;
+}
+.big::first-letter{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* below styles is only for mobiles  */
+@media(max-width:768px){
+    .home{
+        width: 100%;
+        /* padding: 10%; */
+    }
+    .text-red{
+        color: rgb(67, 48, 245);
+    }
+}

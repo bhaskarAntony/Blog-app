@@ -1,0 +1,22 @@
+/* .card{
+  background-color: #0c0c0c;
+  width: 300px;
+  margin: auto;
+  margin-top: 40px;
+  color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  border:50px solid green ; width of the border, type of the border(solid double dashed dotted ridge grrove inset outset) color of the border
+}
+.card img{
+  width: 100%;
+} */
+
+.about{
+  height: 100vh;
+  background-color: lightpink;
+}
+.home{
+  height: 100vh;
+  background-color: lightslategrey;
+}
