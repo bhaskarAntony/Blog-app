@@ -4,6 +4,7 @@ import './style.css'
 function Home() {
   return (
   <section className="home">
+  
         <p className='text-red'>OPINION</p>
         <h1 className="big-heading">
         What To Focus on at Microsoft Ignite <br /> This Year: Avoiding AI Catastrophes
